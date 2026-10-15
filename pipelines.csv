@@ -1,0 +1,16 @@
+id,source_node,target_node,capacity_liters_sec,cost_per_liter
+P101,Reservoir_A,Purification_Plant,3000,2
+P102,Reservoir_A,Ground_Water_Mix,1500,1
+P103,Purification_Plant,Central_Hub,2500,2
+P104,Ground_Water_Mix,Central_Hub,1000,3
+P105,Purification_Plant,North_Junction,800,4
+P106,Central_Hub,North_Junction,1200,2
+P107,Central_Hub,South_Junction,1800,2
+P108,North_Junction,Industrial_Park,1500,3
+P109,South_Junction,Residential_Zone,1000,2
+P110,South_Junction,District_1,1200,1
+P111,Industrial_Park,District_1,1000,1
+P112,Residential_Zone,District_1,800,1
+P113,North_Junction,Residential_Zone,400,3
+P114,Ground_Water_Mix,South_Junction,500,4
+P115,Npark,City Mall,2000,5
